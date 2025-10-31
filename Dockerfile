@@ -1,4 +1,4 @@
-FROM openjdk:17-slim
+FROM whanos-java
 
 RUN apt-get update && \
     apt-get install -y maven && \
